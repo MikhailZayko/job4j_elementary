@@ -10,16 +10,16 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float in1 = 140;
-        float expected1 = 2;
-        float out1 = rubleToEuro(in1);
-        boolean passed1 = expected1 == out1;
-        System.out.println("140 rubles are 2. Test result : " + passed1);
+        float inEuro = 140;
+        float expectedEuro = 2;
+        float outEuro = rubleToEuro(inEuro);
+        boolean passedEuro = expectedEuro == outEuro;
+        System.out.println("140 rubles are 2. Test result : " + passedEuro);
 
-        float in2 = 180;
-        float expected2 = 3;
-        float out2 = rubleToDollar(in2);
-        boolean passed2 = expected2 == out2;
-        System.out.println("180 rubles are 3. Test result : " + passed2);
+        float inDlr = 180;
+        float expectedDlr = 3;
+        float outDlr = rubleToDollar(inDlr);
+        boolean passedDlr = expectedDlr == outDlr;
+        System.out.println("180 rubles are 3. Test result : " + passedDlr);
     }
 }
